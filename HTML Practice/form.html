@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <h1>Forms</h1>
+
+        <form>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label for="firstname">First Name</label>
+                <input id="firstname" type="text" name="firstname" placeholder="First Name" required="required"><br>
+
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Last Name" required="required"><br>
+
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" name="dob"><br>
+            </fieldset>
+            
+            <textarea name="content"></textarea>
+
+            <p>Choose your fruit</p>
+            <select name="fruit">
+                <option value="Apple">Apple</option>
+                <option value="Pinepple">Pineapple</option>
+                <option value="Pear">Pear</option>
+            </select>
+            <input type="submit">
+            <button type="reset">Reset</button>
+            
+
+
+        </form>
+    </body>
+</html>
